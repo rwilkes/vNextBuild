@@ -6,9 +6,9 @@
             "name": "PowerShell",
             "type": "PowerShell",
             "request": "launch",
-            "program": "${workspaceRoot}/Tests/Invoke-Tests.ps1"
-            // Or to run the current file
-            // "program": "${file}"
+            "program": "${file}",
+            "args": [],
+            "cwd": "${file}"
         }
     ]
 }
